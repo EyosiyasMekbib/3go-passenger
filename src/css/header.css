@@ -2,8 +2,8 @@ header {
   height: 36px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  background-color: #9b27af;
+  justify-content: center;
+  background-color: #4264fb;
   padding: 3px 10px;
 }
 

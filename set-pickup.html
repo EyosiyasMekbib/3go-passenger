@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="theme-color" content="rgb(106, 0, 128)" />
+  <title>Set pickup location</title>
+  <link rel="stylesheet" href="/assets/css/kai-font/style.css">
+  <link rel="stylesheet" href="/assets/css/kaiui.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/src/css/header.css" /> -->
+  <link rel="stylesheet" type="text/css" href="/src/css/input.css" />
+  <link rel="stylesheet" type="text/css" href="/src/css/softkey.css" />
+  <link rel="stylesheet" type="text/css" href="/src/css/root.css" />
+</head>
+
+<body>
+  <div id="root" style="overflow-y: scroll;">
+    <header class="kai-header" style="background: var(--header-blue-background)">
+      <h1>3Go</h1>
+    </header>
+
+    <div class="content" style="overflow: auto; display: flex; justify-content: space-between; flex-direction: column;">
+      <div class="kai-btl" style="text-align: center;">
+        <span class="kai-btl-header">Set pickup location</span>
+      </div>
+
+      <div tabindex="0" id="get-current-location-btn" class="kai-al" style="background-color: var(--color-gs00);">
+        <div class="kai-al-line"><span class="kai-al-primary">Get current location</span></div>
+        <div class="kai-al-icon-unfocused"><span class="kai-icon-arrow"></span></div>
+      </div>
+      <div tabindex="0" class="kai-al" style="background-color: var(--color-gs00);">
+        <div class="kai-al-line"><span class="kai-al-primary">Search for location</span></div>
+        <div class="kai-al-icon-unfocused"><span class="kai-icon-arrow"></span></div>
+      </div>
+
+      <div class="kai-button">
+        <button tabindex="0" id="quit-btn" class="kai-button-input" type="button"
+          style="background-color: var(--color-blue-dark); color: var(--color-gs00);">
+          <div class="kai-button-line"><span class="kai-button-text">Quit</span></div>
+        </button>
+      </div>
+    </div>
+
+    <div id="softkey">
+      <label id="left"></label>
+      <label id="center">Select</label>
+      <label id="right"></label>
+    </div>
+  </div>
+
+  <script src="/src/set-pickup.js"></script>
+</body>
+
+</html>
