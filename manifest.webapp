@@ -1,0 +1,24 @@
+{
+  "name": "3Go Passenger",
+  "description": "Passenger app for 3Go - Three-wheeler hailing app",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/assets/icons/icon16x16.png",
+    "48": "/assets/icons/icon48x48.png",
+    "60": "/assets/icons/icon60x60.png",
+    "128": "/assets/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "3Go Team",
+    "url": "http://example.com"
+  },
+  "cursor" : true,
+  "ime_default_softkey_bar": true,
+  "permissions": {
+    "geolocation": {}
+  },
+  "categories": [
+    "social",
+    "life style"
+  ]
+}
